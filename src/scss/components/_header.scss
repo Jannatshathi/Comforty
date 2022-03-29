@@ -94,3 +94,53 @@
         }
     }
 }
+nav{
+    background-color: white;
+    border-bottom: 1px solid $shade;
+    .navbar-content{
+        display: flex;
+        align-items: center;
+        padding: 14px 0;
+        .all-categories{
+            padding: 16px 24px;
+            border-radius: 6px;
+            border: 1px solid $shade;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 500;
+            color: $primary;
+            svg{
+                margin-right: 16px;
+            }
+        }
+        ul{
+            display: flex;
+            padding: 0;
+            margin: 0;
+            li{
+                list-style: none;
+                a{
+                    padding: 16px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: $darkshade;
+                    &:hover{
+                        color: $color;
+                    }
+                }
+            }
+        }
+        .contact-info{
+            margin-left: auto;
+            p{
+                margin: 0;
+                color: $darkshade;
+                a{
+                    color: $primary;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
