@@ -1,0 +1,39 @@
+.banner{
+    background-color: $lightshade;
+    width: calc(100vw - 180px);
+    margin: 0 auto;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
+    &-wrapper{
+        position:relative;
+        .slider-arrows{
+            top: 50%;
+            transform: translateY(-50%);
+            left: -120px;
+            width: calc(100% + 240px);
+            display: flex;
+            justify-content: space-between;
+        }
+       
+    }
+    .banner-slider-content{
+        align-items: center;
+    }
+    .banner-slider-left{
+        .subtitle{
+            font-size: 14px;
+            font-weight: 300;
+            color: $primary;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+
+        }
+        h1{
+            font-size: 68px;
+            font-weight: bold;
+            margin: 0;
+            margin-bottom: 24px;
+        }
+    }
+}
