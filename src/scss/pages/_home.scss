@@ -71,3 +71,23 @@
         }
     }
 }
+.our-products{
+    padding-top: 50px;
+    .section-header{
+        justify-content: center;
+        margin-bottom: 0;
+        h2{
+           
+            font-size: 32px;
+            font-weight: 600;
+            color: $primary;
+            margin-bottom: 15px;
+        }
+    }
+    .products-filter{
+        margin-bottom: 40px;
+    }
+   .product-item{
+       margin-bottom: 40px;
+   }
+}
